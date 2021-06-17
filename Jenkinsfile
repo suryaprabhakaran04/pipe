@@ -1,7 +1,7 @@
 def utils
 node {
   // Check out repository with utils.groovy
-  git 'https://github.com/suryaprabhakaran04/pipe/new/main'
+  git 'https://github.com/suryaprabhakaran04/pipe.git'
   // Load definitions from repo
   utils = load 'Hellow.groovy'
 }
